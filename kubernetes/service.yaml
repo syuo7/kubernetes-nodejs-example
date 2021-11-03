@@ -13,4 +13,4 @@ spec:
     app: span
     tier: backend
   sessionAffinity: None
-  type: LoadBalancer
+  type: NodePort
