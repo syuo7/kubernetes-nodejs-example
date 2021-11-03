@@ -6,6 +6,9 @@ metadata:
   name: foo-web
 spec:
   replicas: 2
+  selector:
+    matchLabels:
+      app: foo
   strategy:
     type: RollingUpdate
   template:
